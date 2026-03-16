@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-size: cover;
+    background-image: url("rifa.jpg");
     background-position: center;
     display: flex;
     justify-content: center;
@@ -100,7 +101,7 @@ body {
 }
 
 .pdf-side {
-    width: 50%;
+    width: 100%;
     padding: 15px;
     background: #ddd;
     display: flex;
@@ -125,5 +126,15 @@ textarea {
     padding: 15px;
     font-size: 16px;
 }
-
-
+.notification{
+    position:fixed;
+    top:20px;
+    right:20px;
+    background:#222;
+    color:white;
+    padding:15px 25px;
+    border-radius:10px;
+    font-size:16px;
+    display:none;
+    z-index:2000;
+}
